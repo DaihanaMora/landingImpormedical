@@ -1,0 +1,140 @@
+* {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    text-decoration: none;
+    font-family: 'Montserrat', sans-serif;
+    box-sizing: border-box;
+}
+
+header {
+    background-color: #f4f4f4;
+}
+
+header>div:first-child>ul {
+    display: grid;
+    grid-template-columns: 100px 2fr 14% auto auto;
+    padding: 0 3rem;
+}
+
+form input[type=search] {
+    width: 90%;
+    height: 43px;
+    font-weight: 500;
+    padding: .5rem;
+}
+
+div:first-child>ul>li:nth-child(1) {
+    justify-self: stretch;
+    place-self: center stretch;
+}
+
+div:first-child>ul>li:nth-child(2) {
+    padding-left: 1rem;
+    align-self: center;
+}
+
+#search {
+    margin-left: -2.6rem;
+    cursor: pointer;
+    height: 40px;
+    width: 40px;
+    padding: .3rem;
+    background-color: black;
+    position: absolute;
+    margin-top: 0.1rem;
+    border-radius: 3px;
+}
+
+div:first-child>ul>li:nth-child(3) {
+    align-self: center;
+    /* justify-self: center; */
+    text-transform: uppercase;
+    font-weight: 600;
+    color: #0075d1;
+}
+
+div:first-child>ul>li:nth-child(4) {
+    align-self: center;
+    justify-self: center;
+    text-align: center;
+    font-weight: 500;
+}
+
+#login {
+    color: #0075d1;
+    font-weight: bold;
+    text-decoration: underline;
+    text-decoration-color: currentColor;
+}
+
+div:first-child>ul>li:nth-child(5) {
+    align-self: center;
+    justify-self: end;
+    text-transform: uppercase;
+    margin: 0 2rem;
+    font-weight: 500;
+}
+
+/* menu servicios o productos */
+
+div:nth-child(2)>ul {
+    text-transform: uppercase;
+    display: grid;
+    grid-template-columns: 12% auto auto auto auto 21%;
+    padding: 0 3rem;
+    font-size: smaller;
+    font-weight: 600;
+}
+
+div:nth-child(2)>ul>li>a {
+    color: #343434;
+}
+
+div:nth-child(2)>ul>li:nth-child(1) {
+    margin-left: .5rem;
+}
+
+div:nth-child(2)>ul>li:nth-child(2)::before {
+    content: '';
+    display: inline-block;
+    background: url(../img/IconMovilidad.jpg);
+    background-repeat: no-repeat;
+    width: 25px;
+    height: 16px;
+}
+
+div:nth-child(2)>ul>li:nth-child(2) {}
+
+div:nth-child(2)>ul>li:nth-child(3)::before {
+    content: '';
+    display: inline-block;
+    background: url(../img/IconHeart.jpg);
+    background-repeat: no-repeat;
+    width: 25px;
+    height: 16px;
+}
+
+div:nth-child(2)>ul>li:nth-child(3) {}
+
+div:nth-child(2)>ul>li:nth-child(4)::before {
+    content: '';
+    display: inline-block;
+    background: url(../img/IconProfesional.jpg);
+    background-repeat: no-repeat;
+    width: 25px;
+    height: 16px;
+}
+
+div:nth-child(2)>ul>li:nth-child(4) {}
+
+div:nth-child(2)>ul>li:nth-child(5)::before {
+    content: '';
+    display: inline-block;
+    background: url(../img/IconDesinfeccion.jpg);
+    background-repeat: no-repeat;
+    width: 35px;
+    height: 16px;
+}
+
+div:nth-child(2)>ul>li:nth-child(5) {}
